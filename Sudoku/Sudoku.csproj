@@ -63,6 +63,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generator\GeneratorOperations.cs" />
+    <Compile Include="Generator\SudokuGenerator.cs" />
     <Compile Include="Resources\Converters\ButtonWidthConverter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
